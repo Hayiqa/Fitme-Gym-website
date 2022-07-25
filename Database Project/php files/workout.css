@@ -1,0 +1,96 @@
+*
+{
+	padding: 0;
+	marginL: 0;
+}
+#header
+{
+	background-image: url(workout.jpeg);
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+}	
+.nabvar-brand img
+{
+	width: 150px;
+	margin-left: 30px;
+}
+/*------------------Welcome text---------------*/
+.welcome
+{
+	padding: 50px 100px;
+	margin-top: -140px;
+	background-color: black;
+	opacity: 0.8;
+	box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+}
+.welcome h1
+{
+	color: #fff;
+	text-align: center;
+}
+.welcome p
+{
+	color: #fff;
+	text-align: center;
+}
+
+
+/*------------------ About us ----------------*/
+#about
+{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#about .col-md-6
+{
+	padding: 20px 10px;
+}
+#about .col-md-4 p
+{
+	padding: 5px;
+	text-align: justify;
+}
+#about .h3
+{
+	margin: 20px auto;
+}
+#about .home-btn
+{
+	margin-top: 10px;
+	padding: 10px 30px;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #013f7e;
+}
+
+/*------------------------------- footor ---------------- */
+#footer
+{
+	margin-top: 80px;
+	padding: 100px;
+	background-color: #efefef;
+	color: #013f7e;
+}
+.footer-logo
+{
+	width: 150px;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+#footer h1
+{
+	font-size: 15px;
+	text-align: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#footer p
+{
+	font-size: 12px;
+	text-align: left;
+}
+#footer .city
+{
+	margin-left: 37px;
+}

@@ -1,0 +1,82 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(fitting.png);
+	background-size: cover;
+	background-position: center;
+	font-family: arial;
+}
+.workselect
+{
+	witdh: 320px;
+	height: 520px;
+	background: #000;
+	color: #fff;
+	top: 30%;
+	left: 20%;
+	opacity: 0.8;
+	
+	position: absolute;
+	transform: translate(-30%,-20%);
+	box-sizing: border-box;
+	padding: 50px 40px;
+}
+h1
+{
+	margin: 0;
+	padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.workselect p
+{
+   margin: 0;
+   padding: 0;
+   font-weight: bold;
+}
+
+.workselect input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.workselect input[type = "text"],input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+.workselect input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.workselect input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+.workselect a
+{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+.workselect a:hover
+{
+	color: #ffc107;
+}
